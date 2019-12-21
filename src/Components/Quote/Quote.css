@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+.otro-blockquote{
+    display: inline-block;
+    font-size: 1.4em;
+    width:45%;
+    margin:20px;
+    font-family:Open Sans;
+    font-style:italic;
+    color: #555555;
+    padding:1.2em 30px 1.2em 75px;
+    border-left:8px solid #868e96;
+    line-height:1.6;
+    position: relative;
+    background:#EDEDED;
+}
+
+.otro-blockquote::before{
+    font-family:Arial;
+    content: "\201C";
+    color:#868e96;
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+}
+
+.otro-blockquote::after{
+    content: '';
+}
+
+.otro-blockquote span{
+    display:block;
+    color:#333333;
+    font-style: normal;
+    font-weight: bold;
+    margin-top:1em;
+}
+.mbtn {
+    bottom: 5px;
+    position: absolute;
+    font-family:Arial;
+    margin: 0 5px;
+    padding: 0;
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #868e96;
+}
+.del {
+    right: 5px;
+}
+.edit {
+    right: 50px;
+}

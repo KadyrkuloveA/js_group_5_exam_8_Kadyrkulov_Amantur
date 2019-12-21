@@ -1,6 +1,6 @@
-.img-block {
-    background-image: url("./arches.png");
-}
 label {
-    margin-top: 15px;
+    margin-top: 20px;
+}
+.img-block {
+    background: url("./arches.png");
 }

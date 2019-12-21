@@ -6,9 +6,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a className="navbar-brand" href="#">
-                    <img src={logo} alt="QuotesCentral" width="32" height="32"/>
-                </a>
+                <img className="navbar-brand" src={logo} alt="QuotesCentral" width="32" height="32"/>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
